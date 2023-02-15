@@ -30,12 +30,24 @@ img:hover{
 }
 
 p{
-    padding: 40px;
+    padding: 20px;
+}
+
+ul{
+    display: block;
 }
 
 nav{
+    background-color: #d5dbff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+    text-align: center;
+}
+
+h1{
+    font-size: large;
+    color: #9200af;
+    font-weight: bold;
 }
 
 h2{
@@ -47,11 +59,26 @@ h2{
 li{
     display: inline-block;
     margin: 15px;
-    padding-right: 20px;
+    padding: 0px 10px;
 }
 
 .active{
-    color: red;
-    border: 5px solid;
-    text-transform: uppercase;
+    color: rgb(228, 71, 71);
+    border: 2px solid;
+    border-radius: 20px;
+    
+}
+
+dt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+dd{
+    border: #4722ff;
+    border-radius: 10px;
+    border-style: dashed;
+    margin-bottom: 20px;
+    padding: 10px;
 }
